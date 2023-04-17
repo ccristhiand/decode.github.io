@@ -1,0 +1,115 @@
+body{
+    background: #F3F5FC;;
+}
+.titulo{
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container{
+    display:flex;
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: flex-start;
+    flex-flow: wrap row;
+    justify-content: space-between;
+    font-size: 12px;
+    border-radius: 20px;
+
+}
+textarea{
+    width: 100%;
+    height: 85%;
+    border: 0px;
+    background: transparent;
+    font-size: 20px;  
+    resize: none;
+}
+
+textarea:focus{
+    outline: 0;
+}
+
+.caja{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.contTexto1{
+    flex-grow: 10;
+    height: 600px;
+}
+.contTexto2{
+    flex-grow: 1;
+    background: white;
+    padding: auto;
+    text-align:  center ;
+    height: 600px;
+}
+.button{
+    font-weight: bold;
+    width: 49%;
+    color: #0A3871;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid #0A3871;
+    padding: 10px 0px; 
+}
+.button:hover{
+    background-color: #0A3871;
+    color: white;
+}
+.copiar{
+    width: 100%;
+}
+
+.imgBuscar{
+    width: 80%;
+}
+
+#destext{
+  pointer-events: none;
+}
+
+.copyPortaPapeles{
+    color: transparent;
+}
+
+.containerFooter{
+    display: flex;
+    height: 160px;
+    padding: 15px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: end;
+    flex-flow: wrap row;
+    font-size: 12px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.containerFooter p{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+
+@media(max-width:841px){
+
+    .imgBuscar{
+        display: none;
+    }
+
+    .contTexto2{
+        width: 100%;
+    }
+}
+
+
+
