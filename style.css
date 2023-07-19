@@ -108,9 +108,18 @@ textarea:focus{
     .contTexto2{
         width: 100%;
     }
+<<<<<<< HEAD
 
     .containerFooter p{
         font-weight: normal;
         font-size: 14px;
     }
+=======
+    
+    .containerFooter p{
+    font-weight: normal;
+    font-size: 14px;
+
+}
+>>>>>>> 37d1c2eeba2d596872ede3c17b5a9f0dddb365e7
 }
