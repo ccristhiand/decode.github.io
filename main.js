@@ -96,7 +96,7 @@ function changeSearch(texto){
                     <div>` ;
     }
     document.getElementById("contTexto2").innerHTML=html;
-    console.log(texto)
+    
     
 }
 

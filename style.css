@@ -2,7 +2,6 @@ body{
     background: #F3F5FC;;
 }
 .titulo{
-
     width: 80%;
     margin: 0 auto;
     padding: 10px;
@@ -115,6 +114,3 @@ textarea:focus{
         font-size: 14px;
     }
 }
-
-
-
